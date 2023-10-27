@@ -38,8 +38,8 @@ def countdays(dict1, dict2):
 if __name__ == '__main__':
 
     # your current total and present days dict (subjects and dates can be edited accordingly)
-    # Total = {'ece101': 32, 'cs101': 34, 'ch101': 30, 'ce102': 24, 'ma101': 38, 'ec111': 9, 'ch111': 8, 'cs111': 10, 'me111': 10}
-    # My_att = {'ece101': 26, 'cs101': 25, 'ch101': 24, 'ce102': 17, 'ma101': 29, 'ec111': 7, 'ch111': 8, 'cs111': 9, 'me111': 9}
+    Total = {'ece101': 32, 'cs101': 34, 'ch101': 30, 'ce102': 24, 'ma101': 38, 'ec111': 9, 'ch111': 8, 'cs111': 10, 'me111': 10}
+    My_att = {'ece101': 26, 'cs101': 25, 'ch101': 24, 'ce102': 17, 'ma101': 29, 'ec111': 7, 'ch111': 8, 'cs111': 9, 'me111': 9}
 
     while(True):
         for keys, values in Total.items():
